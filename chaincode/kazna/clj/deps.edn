@@ -1,0 +1,14 @@
+{:paths ["src"]
+ :deps {org.clojure/clojure {:mvn/version "1.11.1"}
+        org.hyperledger.fabric-chaincode-java/fabric-chaincode-shim {:mvn/version "2.4.1"}
+        metosin/jsonista {:mvn/version "0.3.7"}
+        metosin/malli {:mvn/version "0.10.1"}
+        com.gfredericks/test.chuck {:mvn/version "0.2.14"}
+        net.openhft/zero-allocation-hashing {:mvn/version "0.16"}}
+ :aliases
+ {:build {:deps {io.github.clojure/tools.build {:git/tag "v0.9.3" :git/sha "e537cd1"}}
+          :ns-default build}}
+ 
+ :mvn/repos {"central" {:url "https://repo1.maven.org/maven2/"}
+             "clojars" {:url "https://repo.clojars.org/"}
+             "jitpack" {:url "https://jitpack.io"}}}

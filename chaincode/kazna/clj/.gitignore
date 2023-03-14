@@ -1,0 +1,14 @@
+/target
+/classes
+/checkouts
+*.jar
+*.class
+/.calva/output-window/
+/.cpcache
+/.lein-*
+/.nrepl-history
+/.nrepl-port
+/.rebel_readline_history
+/.socket-repl-port
+/.clj-kondo
+/.lsp
